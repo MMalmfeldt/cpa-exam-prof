@@ -1,0 +1,2 @@
+class Becquestion < ApplicationRecord
+end
