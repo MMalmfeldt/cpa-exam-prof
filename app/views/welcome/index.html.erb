@@ -2,6 +2,12 @@
 
 <ul>
 	<% @subjects.each do |subject| %>
-		<li> <%= subject %> </li>
+		<li> <%= subject.question %> </li>
+		     <p>Answers:</p>
+		     <%= subject.answer_one %> <br>
+		     <%= subject.answer_two %> <br>
+		     <%= subject.answer_three %> <br>
+		     <%= subject.answer_four %>
+
 	<%end%>
 </ul>

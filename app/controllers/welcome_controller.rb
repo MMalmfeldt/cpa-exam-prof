@@ -1,7 +1,7 @@
 class WelcomeController < ApplicationController
 
 	def index
-		@subjects = ['BEC', 'REG', 'FAR', 'AUD']
+		@subjects = Becquestion.all
 	end
 
 end
